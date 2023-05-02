@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+// App.js
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import {
+  Routes,
+  Route
+} from "react-router-dom";
+
+import Home from './components/Home';
+import Descobrir from './components/Descobrir';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        {/* Componente da tela inicial */}
+        <Route index element={<Home />} />
+        {/* Componente de uma rota específica */}
+        <Route path="descobrir" element={<Descobrir />} />
+      </Routes>
     </div>
   );
 }
