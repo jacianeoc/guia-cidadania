@@ -38,12 +38,16 @@ export const Etapas = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Etapas</h2>
-                        <p>Serão divididos em 4 Etapas para<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>Serão 10 módulos dividos em 4 etapas, são elas:</p>
                         <Carousel responsive={responsive} className="owl-carousel owl-theme skill-slider">
+                            
+                            <Link to="/descobrir">
                             <Button  className="item">
                                 <img src={descobrir} alt="Descobrir" />
                                 <h5>Descobrir</h5>
                             </Button>
+                            </Link>
+                            
                             <Button className="item">
                                 <img src={analisar} alt="Analisar" />
                                 <h5>Analisar</h5>
