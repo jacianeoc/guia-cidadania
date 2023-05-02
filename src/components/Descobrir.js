@@ -60,7 +60,7 @@ const Descobrir = () =>{
                                     <br></br>Visualização:Criar uma abstração de uma nuvem de palavras; as palavras serão escritas no painel e palavras iguais, usar a mesma cor (ideia de frequencia)
                                 </li>
                                 <li>Quantas horas por dia usamos essas tecnologias? E como dividimos esse tempo?
-                                    <br></br>  Fazer uma sumarização de dados com médias e proporções
+                                    <br></br>Visualização: Fazer uma sumarização de dados com médias e proporções
                                 </li>
                                
                                 <li>Qual o nível de conhecimento sobre essas tecnologias? Você se considera: [ ] avançado [ ] intermediário [ ] iniciante

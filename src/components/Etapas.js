@@ -38,7 +38,7 @@ export const Etapas = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Etapas</h2>
-                        <p>Serão 10 módulos dividos em 4 etapas, são elas:</p>
+                        <p>Serão 10 módulos divididos em 4 etapas, são elas:</p>
                         <Carousel responsive={responsive} className="owl-carousel owl-theme skill-slider">
                             
                             <Link to="/descobrir">
